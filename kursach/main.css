@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+.nav a{
+    text-decoration: none;
+    font-size: 24pt;
+    font-family: 'Philosopher', sans-serif;
+    font-style: bold;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    transition: all 1s ease 0s
+}
+
+.nav a:hover{
+    color: rgb(97, 97, 97);
+    font-size: 28pt;
+}
+
+.nav{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.intro{
+    height: 1000px;
+    width: 100%;
+    background: url('img/main_ph.png') 100% 100% no-repeat;
+    background-size: cover;
+}
+
+.textBlock{
+    height: auto;
+    width: 50%;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-bottom: 26%;
+    text-align: left;
+}
+
+.textBlock p{
+    font-size: 20pt;
+    font-family: 'Philosopher', sans-serif;
+    line-height: normal;
+    color: white;
+}
+
+.body{
+    background-color: white;
+}   
+
+.block{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+}
+
+.textBlock2{
+    background-color: #ececec;
+    width: 43%;
+    margin-left: 2%;
+    margin-right: 5%;
+    border-left: 20px white solid;
+}
+
+.imgBox{
+    width: 43%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 2%;
+    border-right: 20px white solid;
+    background: url("img/about_group.png") 100% 100% no-repeat;
+    background-size: cover;
+}
+
+.textBlock2 h1{
+    padding-top: 8%;
+    font-size: 45pt;
+    font-family: 'Philosopher', sans-serif;
+    line-height: normal;
+    text-align: center;
+}
+
+.textBlock2 p{
+    font-size: 18pt;
+    font-family: 'Philosopher', sans-serif;
+    line-height: normal;
+    text-align: justify;
+    padding: 5%;
+}
+
+.outro {
+    height: 50px;
+    width: 100%;
+    background-color: #1a1a1a;
+}
+
+.outro p{
+    font-size: 18pt;
+    font-family: 'Philosopher', sans-serif;
+    line-height: normal;
+    text-align: center;
+    color: white;
+    transform: translateY(50%);
+}
